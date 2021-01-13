@@ -20,7 +20,7 @@ function enableVideoEasterEgg() {
 }
 
 function enableGameTetris() {
-    let easterEgg = document.getElementById('Tetris');
+    let easterEgg = document.getElementById('easterEgg');
     easterEgg.onclick = function () {
         window.open('https://www.min2win.ru/gm.php?id=3336', '_blank');
     };
