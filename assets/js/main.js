@@ -19,9 +19,10 @@ function enableVideoEasterEgg() {
     };
 }
 
+
 function enableGameTetris() {
-    let Tetris = document.getElementById('Tetris');
-    Tetris.onclick = function () {
+    let easterEgg = document.getElementById('easterEgg');
+    easterEgg.onclick = function () {
         window.open('https://www.min2win.ru/gm.php?id=3336', '_blank');
     };
 }
