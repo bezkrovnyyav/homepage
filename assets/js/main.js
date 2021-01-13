@@ -19,6 +19,7 @@ function enableVideoEasterEgg() {
     };
 }
 
+
 function enableGameTetris() {
     let easterEgg = document.getElementById('easterEgg');
     easterEgg.onclick = function () {
